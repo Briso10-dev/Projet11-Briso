@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@100;300;400;500;700;900&display=swap');
+
+/* Variabilisation */
+:root{
+--primary-color: #000000;
+--secondary-color:#2C2C2C;
+--font-size:10px;
+--font-family: 'SF Pro Display', Arial, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    bottom: none;
+}
+html{
+    font-size: var(--font-size);
+}
+body {
+    font-family: var(--font-family);
+    overflow-x: hidden;
+}
+.bg-secondary-color{
+    background: var(--secondary-color);
+}
