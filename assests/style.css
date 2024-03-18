@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* Variabilisation */
 :root{
 --primary-color: #000000;
 --secondary-color:#2C2C2C;
 --font-size:10px;
---font-family: 'SF Pro Display', Arial, sans-serif;
+--font-family1: 'SF Pro Display', Arial, sans-serif;
+--font-family2: "Figtree", sans-serif;
+ 
 }
 *{
     padding: 0;
@@ -19,6 +22,15 @@ body {
     font-family: var(--font-family);
     overflow-x: hidden;
 }
+.font-figtree{
+    font-family: var(--font-family2);
+}
 .bg-secondary-color{
     background: var(--secondary-color);
+}
+.bg-gradient{
+    background: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
+}
+.color-text{
+    background: #909090;
 }
