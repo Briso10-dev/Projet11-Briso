@@ -5,6 +5,7 @@
 :root{
 --primary-color: #000000;
 --secondary-color:#2C2C2C;
+--tertiary-color: #EDEDED;
 --font-size:10px;
 --font-family1: 'SF Pro Display', Arial, sans-serif;
 --font-family2: "Figtree", sans-serif;
@@ -33,4 +34,7 @@ body {
 }
 .color-text{
     background: #909090;
+}
+.bg-gradient2{
+    background: var(--tertiary-color);
 }
