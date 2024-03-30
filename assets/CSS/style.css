@@ -6,6 +6,8 @@
 --primary-color: #000000;
 --secondary-color:#2C2C2C;
 --tertiary-color: #EDEDED;
+--other-color: #181313;
+--text-color:#CFCFCF;
 --font-size:10px;
 --font-family1: 'SF Pro Display', Arial, sans-serif;
 --font-family2: "Figtree", sans-serif;
@@ -32,9 +34,15 @@ body {
 .bg-gradient{
     background: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
 }
+.bg-gradient2{
+    background: var(--other-color);
+}
 .color-text{
     background: #909090;
 }
 .bg-gradient2{
     background: var(--tertiary-color);
+}
+.text-color2{
+    font-variant: var(--text-color);
 }
